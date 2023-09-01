@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -16,12 +16,12 @@ void main()
 	int n;
 	double a;
 
-	cout << "Ââåäèòå ÷èñëî äëÿ ïîèñêà åãî ôàêòîðèàëà: ";cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð¿Ð¾Ð¸ÑÐºÐ° ÐµÐ³Ð¾ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð»Ð°: ";cin >> n;
 	cout << endl;
 	cout << "!" << n << " = " << Factorial(n) << endl << endl;
 
-	cout << "Ââåäèòå ÷èñëî äëÿ âîçêåäåíèå â ñòåïåíü: "; cin >> a;
-	cout << "Ââåäèòå çíà÷åíèå ñòåïåíè äëÿ ÷èñëà " << a << ": "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð²Ð¾Ð·ÐºÐµÐ´ÐµÐ½Ð¸Ðµ Ð² ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ Ð´Ð»Ñ Ñ‡Ð¸ÑÐ»Ð° " << a << ": "; cin >> n;
 	cout << a << "^" << n << " = " << Power(a, n) << endl;
 
 
@@ -33,10 +33,10 @@ void Elevator(int floor)
 {
 	if (floor == 0)
 	{
-		cout << "Âû â ïîäâàëå" << endl;
+		cout << "Ð’Ñ‹ Ð² Ð¿Ð¾Ð´Ð²Ð°Ð»Ðµ" << endl;
 		return;
 	}
-	cout << "Âû íà " << floor << "ýòàæå " << endl;
+	cout << "Ð’Ñ‹ Ð½Ð° " << floor << "ÑÑ‚Ð°Ð¶Ðµ " << endl;
 	Elevator(floor - 1);
 }
 
