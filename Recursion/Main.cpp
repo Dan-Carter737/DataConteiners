@@ -4,7 +4,6 @@ using std::cin;
 using std::cout;
 using std::endl;;
 
-
 void Elevator(int floor);
 int Factorial(int n);
 double Power(double a, int n);
